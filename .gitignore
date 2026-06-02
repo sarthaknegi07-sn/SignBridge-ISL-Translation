@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Data and Models (Keep raw data, ignore large generated files)
+data/processed/
+models/
+voice/audio_cache/
+*.npy
+*.pkl
+*.pth
+
+# Visualizations
+models/*.png
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
