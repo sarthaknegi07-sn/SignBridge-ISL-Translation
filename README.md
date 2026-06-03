@@ -14,19 +14,21 @@ SignBridge is an AI-powered Indian Sign Language (ISL) translation system design
 
 ## System Workflow
 
+```text
 Webcam Input
-↓
+      ↓
 MediaPipe Hand Landmark Extraction
-↓
+      ↓
 Keypoint Preprocessing
-↓
+      ↓
 Bi-LSTM + Attention Model
-↓
+      ↓
 Text Prediction
-↓
+      ↓
 Edge-TTS Speech Synthesis
-↓
+      ↓
 Audio Output
+```
 
 ## Implemented Features 
 - [x] **Project Environment Setup:** Created virtual environment and `requirements.txt`.
