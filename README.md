@@ -3,6 +3,25 @@
 ## Project Overview
 SignBridge is an AI-powered Indian Sign Language (ISL) translation system designed to bridge communication barriers for the deaf and hard-of-hearing community. The system captures sign language gestures in real time through a webcam, translates them into text using Deep Learning, and converts the translated output into natural-sounding speech using neural text-to-speech technology.
 
+## Tech Stack
+- Python
+- PyTorch
+- MediaPipe
+- OpenCV
+- Edge-TTS
+- NumPy
+- Pandas
+
+## System Workflow
+
+Webcam Input
+→ MediaPipe Hand Landmark Extraction
+→ Keypoint Preprocessing
+→ Bi-LSTM + Attention Model
+→ Text Prediction
+→ Edge-TTS Speech Synthesis
+→ Audio Output
+
 ## Implemented Features 
 - [x] **Project Environment Setup:** Created virtual environment and `requirements.txt`.
 - [x] **Voice Module:** Configured `voice_config.py` and implemented `speaker.py` using `edge-tts`.
