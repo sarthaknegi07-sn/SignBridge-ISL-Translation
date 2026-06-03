@@ -22,7 +22,7 @@ SignBridge is an AI-powered Indian Sign Language (ISL) translation system design
 
 ## Project Structure
 ```text
-D:\ISL_PROJECT\
+SignBridge-ISL-Translation/
 ├── data/
 │   ├── raw/                # Raw .pose and CSV files (iSign v1.1)
 │   └── processed/          # Preprocessed .npy and encoder files
