@@ -1,7 +1,7 @@
 # SignBridge: Real-Time Indian Sign Language (ISL) Translation & Speech Generation System
 
 ## Project Overview
-This project is an advanced **Indian Sign Language (ISL) Translation System** designed to bridge the communication gap for the deaf and hard-of-hearing community. It captures ISL gestures in real-time using a webcam, translates them into text using Deep Learning, and then synthesizes the text into spoken language using an AI-based voice assistant.
+SignBridge is an AI-powered Indian Sign Language (ISL) translation system designed to bridge communication barriers for the deaf and hard-of-hearing community. The system captures sign language gestures in real time through a webcam, translates them into text using deep learning, and converts the translated output into natural-sounding speech using neural text-to-speech technology.
 
 ## What's Done So Far
 - [x] **Project Environment Setup:** Created virtual environment and `requirements.txt`.
