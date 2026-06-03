@@ -106,4 +106,4 @@ python src/live_detect.py
 - [ ] Offline TTS support.
 
 ## License
-MIT License
+This project is licensed under the MIT License.
